@@ -1,0 +1,112 @@
+body {
+font-family: 'Raleway', sans-serif; 
+background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/J9H9WF0/festive-starry-night-sky-animation-with-glowing-white-dot-particles-flickering-on-a-dark-black-teal-blue-gradient-background_b9nbmr6r_thumbnail-full01.png");
+background-size: cover;
+}
+
+.nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    overflow: hidden;
+    background-color: #333333;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:16px;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+  width: 100%;
+  font-weight: 300;
+  text-align: center;
+  color: #D6B47E;
+
+}
+
+h2 {
+  font-size: 1.75rem;
+  display: inline-block;
+  text-align: center;
+  background-color: #D6B47E;
+  padding: 3px 10px;
+  margin: 5px;
+  color: white;
+  
+}
+
+.menu {
+  border: 2px solid;
+  text-align: center;
+  width: 200px;
+}
+
+h3 {
+  display: inline-block;
+  font-weight: 800;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 10px 25px;
+  color: #D6B47E
+}
+
+.container {
+  min-width: 775px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hero {
+  background-image: url("https://www.leadingteams.net.au/wp-content/uploads/2018/02/rock-band-795x530.jpg");
+  background-size: cover;
+  min-width: 964px;
+  min-height: 422px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.supporting-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 45px 0 0 0;
+}
+
+.supporting-container div {
+  background-size: cover;
+  min-width: 450px;
+  min-height: 345px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 30px;
+}
+
+.upcoming {
+background-image: url("http://www.foxstudiosaustralia.com/img/thumbnails/stageone.jpg");
+}
+
+.roast {
+background-image: url("https://assets0.camaloon.media/uploads/catalogue-productpageimage/7892/image/tsh_gil_hea_white_01-62d34f61e117bb072caf259256476d8b.jpg");
+}
+
+#footer {
+  font-size: 1.25rem;
+  text-align: center;
+  color: #D6B47E;
+  font-weight: 300;
+  width: 100%;
+  
+}
